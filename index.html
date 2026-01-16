@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Схема территории — демо</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__left">
+      <div class="brand">
+        <div class="brand__dot"></div>
+        <div class="brand__text">
+          <div class="brand__title">Турбаза «Лесная»</div>
+          <div class="brand__subtitle">Интерактивная схема</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar__right">
+      <button class="icon-btn" id="btnLocate" title="Мы здесь">
+        ⦿
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div id="map" class="map"></div>
+
+    <!-- Bottom sheet -->
+    <section class="sheet" id="sheet" aria-hidden="true">
+      <div class="sheet__handle" id="sheetHandle"></div>
+
+      <div class="sheet__content">
+        <div class="sheet__media" id="sheetMedia"></div>
+
+        <div class="sheet__body">
+          <div class="sheet__badge" id="sheetBadge">Объект</div>
+          <h2 class="sheet__title" id="sheetTitle">—</h2>
+          <div class="sheet__subtitle" id="sheetSubtitle"></div>
+
+          <div class="sheet__meta" id="sheetMeta"></div>
+
+          <p class="sheet__desc" id="sheetDesc"></p>
+
+          <div class="sheet__tags" id="sheetTags"></div>
+
+          <div class="sheet__actions" id="sheetActions"></div>
+        </div>
+      </div>
+
+      <button class="sheet__close" id="sheetClose" aria-label="Закрыть">✕</button>
+    </section>
+
+    <!-- Simple toast -->
+    <div class="toast" id="toast"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
