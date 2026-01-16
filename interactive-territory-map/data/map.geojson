@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "cabin-01", "type": "cabin", "label": "Домик 1" },
+      "geometry": { "type": "Polygon", "coordinates": [[[82.9346,55.0412],[82.9347,55.0412],[82.9347,55.0413],[82.9346,55.0413],[82.9346,55.0412]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "cabin-02", "type": "cabin", "label": "Домик 2" },
+      "geometry": { "type": "Polygon", "coordinates": [[[82.9349,55.04115],[82.9350,55.04115],[82.9350,55.04125],[82.9349,55.04125],[82.9349,55.04115]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "poi-reception", "type": "poi", "label": "Ресепшн" },
+      "geometry": { "type": "Point", "coordinates": [82.93475,55.04105] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "zone-beach", "type": "zone", "label": "Пляж" },
+      "geometry": { "type": "Polygon", "coordinates": [[[82.9342,55.0410],[82.9345,55.0410],[82.9345,55.04118],[82.9342,55.04118],[82.9342,55.0410]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "path-01", "type": "path", "label": "Тропа" },
+      "geometry": { "type": "LineString", "coordinates": [[82.93475,55.04105],[82.93465,55.04118],[82.93455,55.04122],[82.93445,55.04115]] }
+    }
+  ]
+}

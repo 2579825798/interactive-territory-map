@@ -1,0 +1,46 @@
+{
+  "cabin-01": {
+    "title": "Домик №1",
+    "subtitle": "4 места",
+    "price": "от 3500 ₽/сут",
+    "capacity": "4",
+    "desc": "Уютный домик рядом с лесной тропой. Есть мангал и веранда.",
+    "photo": "./images/cabin-1.jpg",
+    "links": {
+      "detailsUrl": "https://example.com/cabin-1",
+      "bookingUrl": "https://example.com/book?cabin=1",
+      "phone": "+79990000000"
+    },
+    "tags": ["тихо", "с животными", "в тени"]
+  },
+  "cabin-02": {
+    "title": "Домик №2",
+    "subtitle": "2 места",
+    "price": "от 2900 ₽/сут",
+    "capacity": "2",
+    "desc": "Ближе к воде, хороший вид утром. Подойдёт паре.",
+    "photo": "./images/cabin-2.jpg",
+    "links": {
+      "bookingUrl": "https://example.com/book?cabin=2",
+      "phone": "+79990000000"
+    },
+    "tags": ["у воды", "романтика"]
+  },
+  "poi-reception": {
+    "title": "Ресепшн",
+    "subtitle": "Заезд / вопросы / аренда",
+    "desc": "Здесь заселение и выдача ключей. Если что — подходи сюда.",
+    "photo": "./images/poi-cafe.jpg",
+    "links": {
+      "phone": "+79990000000"
+    },
+    "tags": ["помощь", "инфо"]
+  },
+  "zone-beach": {
+    "title": "Пляж",
+    "subtitle": "Зона отдыха",
+    "desc": "Песок, шезлонги, вход в воду. Вечером красивый закат.",
+    "photo": "./images/zone-beach.jpg",
+    "tags": ["купание", "закат", "детям ок"]
+  }
+}
